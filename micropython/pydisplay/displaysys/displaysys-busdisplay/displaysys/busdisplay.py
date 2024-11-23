@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: MIT
 
 """
-pydisplay busdisplay
+displaysys.busdisplay
 """
 
-from displaycore import DisplayDriver
+from displaysys import DisplayDriver
 from micropython import const
 import struct
 import sys
@@ -147,7 +147,7 @@ class BusDisplay(DisplayDriver):
         data_as_commands=False,  # For color OLEDs
         single_byte_bounds=False,  # For color OLEDs
     ):
-        print(f"Started BusDisplay")
+        print("Started BusDisplay")
         gc.collect()
         self.display_bus = display_bus
         self._width = width
@@ -217,7 +217,7 @@ class BusDisplay(DisplayDriver):
         self.brightness = brightness
 
         gc.collect()
-        print(f"Finished BusDisplay")
+        print("Finished BusDisplay")
 
     ############### Required API Methods ################
 
@@ -518,7 +518,7 @@ class BusDisplay(DisplayDriver):
     ############### Class Specific Methods ##############
 
     def _set_window(self, x1, y1, x2, y2):
-        # See https://github.com/adafruit/Adafruit_Blinka_Displayio/blob/main/displayio/_displaycore.py#L271-L363
+        # See https://github.com/adafruit/Adafruit_Blinka_Displayio/blob/main/displayio/_displaysys.py#L271-L363
         # TODO:  Add `if self._single_byte_bounds is True:` for Column and Row _param_buf packing
 
         # Column addresses

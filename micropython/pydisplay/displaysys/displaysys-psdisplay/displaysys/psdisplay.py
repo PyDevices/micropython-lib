@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: MIT
 
 """
-pydisplay psdisplay
+displaysys.psdisplay
 """
 
-from displaycore import DisplayDriver, color_rgb
+from displaysys import DisplayDriver, color_rgb
 from pyscript.ffi import create_proxy  # type: ignore
 from js import document, console  # type: ignore
 

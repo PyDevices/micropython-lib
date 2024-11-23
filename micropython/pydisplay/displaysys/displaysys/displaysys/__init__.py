@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-`displaycore`
+`displaysys`
 ====================================================
 
 A collection of classes and functions for working with displays and input devices
@@ -31,6 +31,7 @@ def new_buffer(size):
         (memoryview): The new buffer.
     """
     return memoryview(bytearray(size))
+
 
 def color888(r, g, b):
     """

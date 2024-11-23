@@ -494,7 +494,7 @@ class TouchDevice(Device):
             list: The rotation table.
         """
         return self._data2
-    
+
     @rotation_table.setter
     def rotation_table(self, value):
         """

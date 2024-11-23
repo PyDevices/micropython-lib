@@ -36,7 +36,7 @@ class PGDisplay(DisplayDriver):
         height (int, optional): The height of the display. Defaults to 240.
         rotation (int, optional): The rotation of the display. Defaults to 0.
         color_depth (int, optional): The color depth of the display. Defaults to 16.
-        title (str, optional): The title of the display window. Defaults to "pydisplay".
+        title (str, optional): The title of the display window. Defaults to "displaysys".
         scale (float, optional): The scale of the display. Defaults to 1.0.
         window_flags (int, optional): The flags for creating the display window. Defaults to pg.SHOWN
 
@@ -51,7 +51,7 @@ class PGDisplay(DisplayDriver):
         height=240,
         rotation=0,
         color_depth=16,
-        title="pydisplay",
+        title="displaysys",
         scale=1.0,
         window_flags=pg.SHOWN,
     ):
