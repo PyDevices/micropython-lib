@@ -24,7 +24,7 @@ from . import _shapes
 from . import _font
 
 try:
-    from ulab import numpy as np  # type: ignore
+    from ulab import numpy as np
 except ImportError:
     try:
         import numpy as np

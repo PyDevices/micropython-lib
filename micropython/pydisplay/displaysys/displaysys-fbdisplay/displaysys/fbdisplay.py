@@ -40,7 +40,6 @@ class FBDisplay(DisplayDriver):
         """
         Initializes the display instance.  Called by __init__ and rotation setter.
         """
-        pass
 
     def fill_rect(self, x, y, w, h, c):
         """

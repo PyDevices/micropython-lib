@@ -31,11 +31,11 @@ from displaysys import color565, color565_swapped, color332
 try:
     import graphics as framebuf
 except ImportError:
-    import framebuf  # type: ignore
+    import framebuf
 
-try:
+if sys.implementation.name == "micropython":
     from ._viper import _bounce8, _bounce4
-except Exception:
+else:
 
     def _bounce8(*args, **kwargs):
         raise NotImplementedError(

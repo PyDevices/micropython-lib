@@ -15,7 +15,7 @@ A function to swap the bytes of a buffer in place.  3 implementations are provid
 
 try:
     # import byteswap from MicroPython if available
-    from byteswap import byteswap  # type: ignore
+    from byteswap import byteswap
 except ImportError:
     try:
         # import numpy if available
@@ -24,7 +24,7 @@ except ImportError:
             import numpy as np
         except ImportError:
             # import numpy for CircuitPython or MicroPython with numpy module
-            from ulab import numpy as np  # type: ignore
+            from ulab import numpy as np
 
         def byteswap(buf):
             """

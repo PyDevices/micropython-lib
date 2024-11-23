@@ -118,7 +118,7 @@ class BusDisplay(DisplayDriver):
         rotation_table (tuple): The rotation table for the display.
     """
 
-    def __init__(
+    def __init__(  # noqa: PLR0913
         self,
         display_bus,
         init_sequence=None,
@@ -459,9 +459,9 @@ class BusDisplay(DisplayDriver):
                         self._backlight_pin.duty_cycle = int(value * 0xFFFF)
                 else:
                     if sys.implementation.name == "micropython":
-                        self._backlight_pin.value(value > 0.5)
+                        self._backlight_pin.value(value > 0.5)  # noqa: PLR2004
                     elif sys.implementation.name == "circuitpython":
-                        self._backlight_pin.value = value > 0.5
+                        self._backlight_pin.value = value > 0.5  # noqa: PLR2004
             elif self._brightness_command is not None:
                 self._param_buf[0] = int(value * 255)
                 self.send(self._brightness_command, self._param_mv[:1])

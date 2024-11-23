@@ -5,6 +5,7 @@ spibus
 
 from machine import Pin, SPI
 import struct
+import micropython
 from micropython import const
 
 try:
@@ -96,6 +97,7 @@ class SPIBus:
         self._buf1: bytearray = bytearray(1)
         print("SPIBus loaded")
 
+    @micropython.native
     def send(
         self,
         command: Optional[int] = None,

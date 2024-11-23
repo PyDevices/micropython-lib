@@ -9,19 +9,19 @@ scale = 2.0
 
 _ps = _jn = False
 try:
-    import pyscript  # type: ignore # noqa: F401
+    import pyscript
 
     _ps = True
 except ImportError:
     try:
-        get_ipython()  # type: ignore # noqa: F821
+        get_ipython()
         _jn = True
     except NameError:
         pass
 
 if _ps:
     from displaysys.psdisplay import PSDisplay, PSDevices
-    import eventsys.device as device
+    from eventsys import device
 
     display_drv = PSDisplay("display_canvas", width, height)
 
@@ -36,13 +36,13 @@ if _ps:
     )
 elif _jn:
     from displaysys.jndisplay import JNDisplay
-    import eventsys.device as device
+    from eventsys import device
 
     broker = device.Broker()
 
     display_drv = JNDisplay(width, height)
 else:
-    import eventsys.device as device
+    from eventsys import device
     import sys
     try:
         from displaysys.pgdisplay import PGDisplay as DTDisplay, poll

@@ -31,7 +31,7 @@ def main():
             scroll = (y - last_line) % display_drv.height
             display_drv.vscsad(scroll)
         name = f"{index} - {palette.color_name(index)}"
-        text_color = palette.WHITE if palette.brightness(index) < 0.4 else palette.BLACK
+        text_color = palette.WHITE if palette.brightness(index) < 0.4 else palette.BLACK  # noqa: PLR2004
         fb.fill(color)
         fb.text16(name, 2, 2, text_color)
         display_drv.blit_rect(ba, 0, y % display_drv.height, display_drv.width, line_height)
