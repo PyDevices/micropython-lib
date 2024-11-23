@@ -5,7 +5,7 @@ from st7796 import ST7796
 from machine import I2C, Pin  # See the note about reset below
 from ft6x36 import FT6x36
 from machine import freq
-import eventsys.device as device
+from eventsys import device
 
 
 freq(240_000_000)

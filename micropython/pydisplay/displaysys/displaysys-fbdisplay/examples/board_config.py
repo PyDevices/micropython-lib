@@ -1,12 +1,12 @@
 """Qualia S3 RGB-666 with TL040HDS20 4.0" 720x720 Square Display"""
 # Similar configs may be available for RGBMatrix, is31fl3741 and picodvi
 
-from rgbframebuffer import RGBFrameBuffer  # type: ignore
-from machine import I2C, Pin # type: ignore
-from pca9554 import PCA9554 # type: ignore
-from ft6x36 import FT6x36 # type: ignore
+from rgbframebuffer import RGBFrameBuffer
+from machine import I2C, Pin
+from pca9554 import PCA9554
+from ft6x36 import FT6x36
 from displaysys.fbdisplay import FBDisplay
-import eventsys.device as device
+from eventsys import device
 
 
 def send_init_sequence(init_sequence, mosi, sck, cs):

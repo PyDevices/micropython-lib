@@ -196,9 +196,9 @@ class BusDisplay(DisplayDriver):
                 self._backlight_is_pwm = False
 
         # Run the display driver init_sequence.
-        if type(init_sequence) is bytes:
+        if isinstance(init_sequence, bytes):
             self._init_bytes(init_sequence)
-        elif type(init_sequence) is list or type(init_sequence) is tuple:
+        elif isinstance(init_sequence, list) or isinstance(init_sequence, tuple):
             self._init_list(init_sequence)
 
         # Run the display driver init() method, which also gets called by rotation.setter
