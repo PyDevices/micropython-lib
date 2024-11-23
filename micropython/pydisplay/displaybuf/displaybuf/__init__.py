@@ -33,9 +33,9 @@ try:
 except ImportError:
     import framebuf  # type: ignore
 
-if sys.implementation.name == "micropython":
+try:
     from ._viper import _bounce8, _bounce4
-else:
+except Exception:
 
     def _bounce8(*args, **kwargs):
         raise NotImplementedError(
