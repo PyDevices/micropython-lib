@@ -1,17 +1,71 @@
-"""board_config.py - board configuration for PyScript"""
+"""
+Combination board configuration for desktop, pyscript and jupyter notebook platforms.
+"""
 
-from psdisplay import PSDisplay, PSDevices
-import eventsys.device as device
+width = 320
+height = 480
+rotation = 0
+scale = 2.0
+
+_ps = _jn = False
+try:
+    import pyscript  # type: ignore # noqa: F401
+
+    _ps = True
+except ImportError:
+    try:
+        get_ipython()  # type: ignore # noqa: F821
+        _jn = True
+    except NameError:
+        pass
+
+if _ps:
+    from displaysys.psdisplay import PSDisplay, PSDevices
+    import eventsys.device as device
+
+    display_drv = PSDisplay("display_canvas", width, height)
+
+    broker = device.Broker()
+
+    touch_drv = PSDevices("display_canvas")
+
+    touch_dev = broker.create_device(
+        type=device.Types.TOUCH,
+        read=touch_drv.get_mouse_pos,
+        data=display_drv,
+    )
+elif _jn:
+    from displaysys.jndisplay import JNDisplay
+    import eventsys.device as device
+
+    broker = device.Broker()
+
+    display_drv = JNDisplay(width, height)
+else:
+    import eventsys.device as device
+    import sys
+    try:
+        from displaysys.pgdisplay import PGDisplay as DTDisplay, poll
+    except ImportError:
+        from displaysys.sdldisplay import SDLDisplay as DTDisplay, poll
 
 
-display_drv = PSDisplay("display_canvas", 480, 320)
+    display_drv = DTDisplay(
+        width=width,
+        height=height,
+        rotation=rotation,
+        color_depth=16,
+        title=f"{sys.implementation.name} on {sys.platform}",
+        scale=scale,
+    )
 
-broker = device.Broker()
+    broker = device.Broker()
 
-touch_drv = PSDevices("display_canvas")
+    events_dev = broker.create_device(
+        type=device.Types.QUEUE,
+        read=poll,
+        data=display_drv,
+        # data2=Events.filter,
+    )
 
-touch_dev = broker.create_device(
-    type=device.Types.TOUCH,
-    read=touch_drv.get_mouse_pos,
-    data=display_drv,
-)
+display_drv.fill(0)
