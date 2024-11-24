@@ -1,7 +1,7 @@
 metadata(
-    description="displaysys-sdldisplay",
+    description="PyDisplay displaysys-sdldisplay",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys-sdldisplay",
+    author="Brad Barnett",
 )
-require("displaysys")
-package("displaysys")
+require("pydisplay-displaysys")
+package("pydisplay-displaysys")

@@ -1,6 +1,6 @@
 metadata(
-    description="graphics",
+    description="PyDisplay graphics",
     version="0.1.5",
-    pypi_publish="pydisplay-graphics",
+    author="Brad Barnett",
 )
-package("graphics")
+package("pydisplay-graphics")

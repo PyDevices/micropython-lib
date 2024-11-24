@@ -1,7 +1,7 @@
 metadata(
-    description="displaysys-busdisplay",
+    description="PyDisplay displaysys-busdisplay",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys-busdisplay",
+    author="Brad Barnett",
 )
-require("displaysys")
-package("displaysys")
+require("pydisplay-displaysys")
+package("pydisplay-displaysys")

@@ -1,6 +1,6 @@
 metadata(
-    description="displaybuf",
+    description="PyDisplay displaybuf",
     version="0.1.5",
-    pypi_publish="pydisplay-displaybuf",
+    author="Brad Barnett",
 )
-package("displaybuf")
+package("pydisplay-displaybuf")

@@ -1,7 +1,7 @@
 metadata(
-    description="displaysys-fbdisplay",
+    description="PyDisplay displaysys-fbdisplay",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys-fbdisplay",
+    author="Brad Barnett",
 )
-require("displaysys")
-package("displaysys")
+require("pydisplay-displaysys")
+package("pydisplay-displaysys")

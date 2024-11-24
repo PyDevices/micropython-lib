@@ -1,6 +1,6 @@
 metadata(
-    description="displaysys",
+    description="PyDisplay displaysys",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys",
+    author="Brad Barnett",
 )
-package("displaysys")
+package("pydisplay-displaysys")

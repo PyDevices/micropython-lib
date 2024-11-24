@@ -1,7 +1,7 @@
 metadata(
-    description="displaysys-jndisplay",
+    description="PyDisplay displaysys-jndisplay",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys-jndisplay",
+    author="Brad Barnett",
 )
-require("displaysys")
-package("displaysys")
+require("pydisplay-displaysys")
+package("pydisplay-displaysys")

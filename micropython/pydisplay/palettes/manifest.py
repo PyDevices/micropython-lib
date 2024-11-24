@@ -1,6 +1,6 @@
 metadata(
-    description="palettes",
+    description="PyDisplay palettes",
     version="0.1.5",
-    pypi_publish="pydisplay-palettes",
+    author="Brad Barnett",
 )
-package("palettes")
+package("pydisplay-palettes")

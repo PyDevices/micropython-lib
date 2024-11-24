@@ -1,7 +1,7 @@
 metadata(
-    description="displaysys-pgdisplay",
+    description="PyDisplay displaysys-pgdisplay",
     version="0.1.5",
-    pypi_publish="pydisplay-displaysys-pgdisplay",
+    author="Brad Barnett",
 )
-require("displaysys")
-package("displaysys")
+require("pydisplay-displaysys")
+package("pydisplay-displaysys")

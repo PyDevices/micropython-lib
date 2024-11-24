@@ -1,6 +1,6 @@
 metadata(
-    description="timer",
+    description="PyDisplay timer",
     version="0.1.5",
-    pypi_publish="pydisplay-timer",
+    author="Brad Barnett",
 )
-package("timer")
+package("pydisplay-timer")
