@@ -1,1 +1,0 @@
-{"v":1,"hashes":[["displaysys/__init__.mpy","64d1b321"],["displaysys/sdldisplay/__init__.mpy","8679a4bb"],["displaysys/sdldisplay/_sdl2_lib/_constants.mpy","789e92a1"],["displaysys/sdldisplay/_sdl2_lib/_micropython.mpy","0f3b7f00"],["displaysys/sdldisplay/_sdl2_lib/__init__.mpy","81f25762"],["displaysys/sdldisplay/_sdl2_lib/_cpython.mpy","00f3603c"]],"version":"0.1.5"}
