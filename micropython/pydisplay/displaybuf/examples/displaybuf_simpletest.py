@@ -61,7 +61,4 @@ def main(scroll=False, animate=False, text1="displaybuf", text2="simpletest"):
         ssd.show()
 
 
-launch = lambda: main(animate=True)
-wipe = lambda: main(scroll=True)
-
 main()
