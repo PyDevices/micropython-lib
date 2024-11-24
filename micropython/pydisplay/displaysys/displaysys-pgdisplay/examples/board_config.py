@@ -1,6 +1,7 @@
 """
 Board configuration for PyGame.
 """
+
 from displaysys.pgdisplay import PGDisplay as DTDisplay, poll
 from eventsys import device
 import sys

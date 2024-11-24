@@ -1,6 +1,7 @@
 """
 Board configuration for PyScript.
 """
+
 from displaysys.psdisplay import PSDisplay, PSDevices
 from eventsys import device
 

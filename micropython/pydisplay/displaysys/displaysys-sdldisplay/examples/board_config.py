@@ -1,6 +1,7 @@
 """
 Combination board configuration for desktop, pyscript and jupyter notebook platforms.
 """
+
 from displaysys.sdldisplay import SDLDisplay as DTDisplay, poll
 from eventsys import device
 import sys
