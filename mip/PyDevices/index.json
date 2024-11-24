@@ -337,6 +337,22 @@
       "path": "python-ecosys/cbor2"
     },
     {
+      "name": "chsc6x",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay chsc6x touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/chsc6x"
+    },
+    {
       "name": "cmd",
       "version": "3.4.1",
       "author": "",
@@ -415,6 +431,38 @@
         ]
       },
       "path": "python-stdlib/copy"
+    },
+    {
+      "name": "cst226",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay cst226 touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/cst226"
+    },
+    {
+      "name": "cst8xx",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay cst8xx touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/cst8xx"
     },
     {
       "name": "curses.ascii",
@@ -673,6 +721,22 @@
       "path": "python-stdlib/fnmatch"
     },
     {
+      "name": "ft6x36",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay ft6x36 touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/ft6x36"
+    },
+    {
       "name": "functools",
       "version": "0.0.7",
       "author": "",
@@ -689,6 +753,38 @@
       "path": "python-stdlib/functools"
     },
     {
+      "name": "gc9a01",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay gc9a01 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/gc9a01"
+    },
+    {
+      "name": "gc9d01",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay gc9d01 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/gc9d01"
+    },
+    {
       "name": "graphics",
       "version": "0.1.5",
       "author": "",
@@ -703,6 +799,22 @@
         ]
       },
       "path": "micropython/pydisplay/graphics"
+    },
+    {
+      "name": "gt911",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay gt911 touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/gt911"
     },
     {
       "name": "gzip",
@@ -895,6 +1007,70 @@
         ]
       },
       "path": "micropython/drivers/sensor/hts221"
+    },
+    {
+      "name": "hx8357",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay hx8357 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/hx8357"
+    },
+    {
+      "name": "ili9163",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay ili9163 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/ili9163"
+    },
+    {
+      "name": "ili9341",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay ili9341 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/ili9341"
+    },
+    {
+      "name": "ili9488",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay ili9488 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/ili9488"
     },
     {
       "name": "inspect",
@@ -1601,6 +1777,134 @@
       "path": "python-stdlib/ssl"
     },
     {
+      "name": "st7701",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7701 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7701"
+    },
+    {
+      "name": "st7735",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7735 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7735"
+    },
+    {
+      "name": "st7735r",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7735r display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7735r"
+    },
+    {
+      "name": "st7735r_1",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7735r_1 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7735r_1"
+    },
+    {
+      "name": "st7789",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7789 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7789"
+    },
+    {
+      "name": "st7789vw",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7789vw display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7789vw"
+    },
+    {
+      "name": "st7796",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7796 display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7796"
+    },
+    {
+      "name": "st7796_test",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay st7796_test display driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/display/st7796_test"
+    },
+    {
       "name": "stat",
       "version": "0.5.1",
       "author": "",
@@ -2145,6 +2449,22 @@
       "path": "micropython/xmltok"
     },
     {
+      "name": "xpt2046",
+      "version": "0.1.5",
+      "author": "",
+      "description": "PyDisplay xpt2046 touch driver",
+      "license": "MIT",
+      "versions": {
+        "py": [
+          "0.1.5"
+        ],
+        "6": [
+          "0.1.5"
+        ]
+      },
+      "path": "micropython/drivers/touch/xpt2046"
+    },
+    {
       "name": "zlib",
       "version": "1.0.0",
       "author": "",
@@ -2162,5 +2482,5 @@
     }
   ],
   "v": 2,
-  "updated": 1732427653
+  "updated": 1732432040
 }
