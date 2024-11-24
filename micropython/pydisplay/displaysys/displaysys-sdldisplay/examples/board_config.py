@@ -44,11 +44,11 @@ elif _jn:
 else:
     from eventsys import device
     import sys
+
     try:
         from displaysys.pgdisplay import PGDisplay as DTDisplay, poll
     except ImportError:
         from displaysys.sdldisplay import SDLDisplay as DTDisplay, poll
-
 
     display_drv = DTDisplay(
         width=width,
