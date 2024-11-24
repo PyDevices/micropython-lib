@@ -466,128 +466,128 @@
     },
     {
       "name": "displaybuf",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaybuf",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaybuf"
     },
     {
       "name": "displaysys",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys"
     },
     {
       "name": "displaysys-busdisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-busdisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-busdisplay"
     },
     {
       "name": "displaysys-fbdisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-fbdisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-fbdisplay"
     },
     {
       "name": "displaysys-jndisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-jndisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-jndisplay"
     },
     {
       "name": "displaysys-pgdisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-pgdisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-pgdisplay"
     },
     {
       "name": "displaysys-psdisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-psdisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-psdisplay"
     },
     {
       "name": "displaysys-sdldisplay",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "displaysys-sdldisplay",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/displaysys/displaysys-sdldisplay"
@@ -642,16 +642,16 @@
     },
     {
       "name": "eventsys",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "eventsys",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/eventsys"
@@ -690,16 +690,16 @@
     },
     {
       "name": "graphics",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "graphics",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/graphics"
@@ -1330,16 +1330,16 @@
     },
     {
       "name": "palettes",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "palettes",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/palettes"
@@ -1714,16 +1714,16 @@
     },
     {
       "name": "timer",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "",
       "description": "timer",
       "license": "MIT",
       "versions": {
         "py": [
-          "0.1.3"
+          "0.1.4"
         ],
         "6": [
-          "0.1.3"
+          "0.1.4"
         ]
       },
       "path": "micropython/pydisplay/timer"
@@ -2130,5 +2130,5 @@
     }
   ],
   "v": 2,
-  "updated": 1732412636
+  "updated": 1732412932
 }
