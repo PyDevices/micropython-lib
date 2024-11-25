@@ -1,6 +1,9 @@
 metadata(
     description="PyDisplay bundle",
     version="0.1.6",
+    author="Brad Barnett <contact@pydevices.com>",
+    license="MIT",
+    pypi_publish="",
 )
 require("displaybuf")
 require("eventsys")
