@@ -1601,22 +1601,6 @@
       "path": "python-stdlib/pprint"
     },
     {
-      "name": "pydisplay-board_config",
-      "version": "0.1.6",
-      "author": "",
-      "description": "PyDisplay example board_config",
-      "license": "MIT",
-      "versions": {
-        "py": [
-          "0.1.6"
-        ],
-        "6": [
-          "0.1.6"
-        ]
-      },
-      "path": "micropython/pydisplay/pydisplay-board_config"
-    },
-    {
       "name": "pydisplay-bundle",
       "version": "0.1.6",
       "author": "",
@@ -2482,5 +2466,5 @@
     }
   ],
   "v": 2,
-  "updated": 1732506174
+  "updated": 1732511640
 }
