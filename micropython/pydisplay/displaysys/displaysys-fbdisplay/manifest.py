@@ -3,7 +3,7 @@ metadata(
     version="0.1.6",
     author="Brad Barnett <contact@pydevices.com>",
     license="MIT",
-    pypi_publish="displaysys-fbdisplay",
+    pypi_publish="pydisplay-displaysys-fbdisplay",
 )
 require("displaysys")
 package("displaysys")
