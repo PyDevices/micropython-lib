@@ -1,6 +1,6 @@
 metadata(
     description="PyDisplay bundle",
-    version="0.1.6",
+    version="0.0.1",
     author="Brad Barnett <contact@pydevices.com>",
     license="MIT",
     pypi_publish="pydisplay-bundle",
@@ -8,12 +8,6 @@ metadata(
 require("displaybuf")
 require("eventsys")
 require("graphics")
+require("multimer")
 require("palettes")
-require("timer")
 require("displaysys")
-require("displaysys-busdisplay")
-require("displaysys-fbdisplay")
-require("displaysys-jndisplay")
-require("displaysys-pgdisplay")
-require("displaysys-psdisplay")
-require("displaysys-sdldisplay")

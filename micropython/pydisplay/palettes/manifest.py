@@ -1,8 +1,8 @@
 metadata(
     description="PyDisplay palettes",
-    version="0.1.6",
+    version="0.0.1",
     author="Brad Barnett <contact@pydevices.com>",
     license="MIT",
-    pypi_publish="pydisplay-palettes",
+    pypi_publish="palettes",
 )
 package("palettes")
