@@ -2049,22 +2049,6 @@
       "path": "python-stdlib/time"
     },
     {
-      "name": "timer",
-      "version": "0.1.6",
-      "author": "",
-      "description": "PyDisplay timer",
-      "license": "MIT",
-      "versions": {
-        "py": [
-          "0.1.6"
-        ],
-        "6": [
-          "0.1.6"
-        ]
-      },
-      "path": "micropython/pydisplay/timer"
-    },
-    {
       "name": "traceback",
       "version": "0.3.0",
       "author": "",
@@ -2482,5 +2466,5 @@
     }
   ],
   "v": 2,
-  "updated": 1732681891
+  "updated": 1732759105
 }

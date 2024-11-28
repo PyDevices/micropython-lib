@@ -118,15 +118,15 @@ class DisplayDriver:
             try:
                 from multimer import get_timer
 
-                self._timer = get_timer(self.show)
+                self._timer = get_timer(self.show, period=33)
             except ImportError:
                 raise ImportError("timer is required for auto_refresh")
         else:
             self._timer = None
         self.init()
         gc.collect()
-        print(f"{self.__class__.__name__} initialized.")
-        print(f"{self.__class__.__name__} requires_byteswap = {self.requires_byteswap}")
+        print(f"{self.__class__.__name__}: initialized.")
+        print(f"{self.__class__.__name__}: requires_byteswap = {self.requires_byteswap}")
 
     def __del__(self):
         self.deinit()
@@ -171,6 +171,7 @@ class DisplayDriver:
 
         print(f"{self.__class__.__name__}.rotation():  Setting rotation to {value}")
         self._rotation_helper(value)
+        print("done setting rotation")
 
         self._rotation = value
 
