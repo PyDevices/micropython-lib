@@ -5,7 +5,6 @@ metadata(
     license="MIT",
     pypi_publish="pydisplay-bundle",
 )
-require("displaybuf")
 require("eventsys")
 require("graphics")
 require("multimer")
