@@ -41,18 +41,19 @@ permissions:
 
 jobs:
   synchronize-build-and-stage:
-    uses: PyDevices/.github/.github/workflows/reusable-synchronize-mip-package.yml@publishing-v6
+    uses: PyDevices/.github/.github/workflows/reusable-synchronize-mip-package.yml@publishing-v9
     with:
       source-repository: ${{ github.event.client_payload.source_repository || inputs.source-repository }}
       source-ref: ${{ github.event.client_payload.source_ref || inputs.source-ref }}
       version: ${{ github.event.client_payload.version || inputs.version }}
       profile: ${{ github.event.client_payload.profile || inputs.profile }}
-      # The tools' PROFILE_REPOSITORIES map is a second guard beside the
-      # lockfile; publishing-v6..v8 still name PyDevices/audioif for the two
-      # audio profiles that moved to PyDevices/audiocomponents (.github#35).
-      # Pin the commit that carries the corrected map until the next
-      # publishing tag is cut; then this line becomes that tag.
-      publishing-tools-ref: 9aef8e68a2df90623d858c715bdc9e4145c67a55
+      # publishing-v9 (.github#37): the lockfile is the single owner of
+      # profile -> repository. The reusable's record step refuses a dispatch
+      # from a repository the lockfile does not name for that profile, and the
+      # tools take the expected repository from the lockfile rather than a
+      # second hardcoded map. Move a profile by editing pydevices-lock.json on
+      # this branch, never by changing a pin.
+      publishing-tools-ref: publishing-v9
     # The sync mints its own App token; inherit passes the App secrets through.
     secrets: inherit
 
